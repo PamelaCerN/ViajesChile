@@ -1,0 +1,78 @@
+* {
+  font-family: "Open Sans";
+}
+nav {
+  background-color: #2e9aa6; /* No puedo hacer que la barra sea transparente :( */
+}
+@media screen and (max-width: 600px) {
+    .fixed-top{
+        position: inherit;
+    }
+}
+#Inicio {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+body {
+  background-color: black;
+}
+#Quienes-Somos hr {
+  border: 1px solid #2e9aa6;
+}
+
+#Icon-Bar {
+  background-color: #2e9aa6;
+}
+
+#Destacados hr {
+  border: 1px solid #2e9aa6;
+  margin-bottom: 2%;
+}
+
+#Destacados h3 {
+  margin-top: 10%;
+}
+/* Espacio izquierda y derecha en pantallas de alta resolución(escritorio) */
+@media screen and (min-width: 1025px) {
+  #Destacados {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+#Tarjeta {
+  background-color: #2e9aa6;
+  border: 1px solid #fff;
+  height: 30em;
+}
+
+#Tarjeta img {
+  height: 157px;
+}
+/* Muestra de a 2 tarjetas en pantallas de resolución menor a 1024 (ipad/table) */
+@media screen and (max-width: 1024px) {
+  #Tarjeta {
+    background-color: #2e9aa6;
+    border: 1px solid #fff;
+    height: fit-content;
+    margin-top: 5%;
+  }
+  
+}
+
+
+#Contacto hr {
+  border: 1px solid #2e9aa6;
+  margin-bottom: 2%;
+}
+
+#Contacto h3 {
+  margin-top: 10%;
+}
+
+#Footer {
+  margin-top: 5%;
+  background-color: #2e9aa6;
+}
